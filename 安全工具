@@ -1,0 +1,43 @@
+＃＃本文由‘挽秋’搜集整理，欢迎大家搜集更多信息和安全工具，或者写出更详细的工具教程。转载请注明出处。＃＃
+#1.android　安全
+#2.web安全
+１）Nmap　
+N项目简介：map（Network Mapper）是一款免费开源的安全扫描工具，主要用于端口扫描、网络探测等。Nmap也是系统和网络管理员的最爱，常被用于监控主机或服务正常运行时间，管理服务升级计划和网络库存等任务。Nmap通常利用原始IP数据包来探测网络上可用的主机，并能为我们获取目标系统的版本及服务等信息。
+项目地址：https://nmap.org/
+２）Metasploit
+项目简介：Metasploit是由着名的安全研究员HD Moore创建的渗透测试框架，旨在帮助安全和IT专业人士识别安全性问题，验证漏洞的缓解措施，并管理专家驱动的安全性进行评估，提供真正的安全风险情报。Metasploit目前主要由开源社区和Rapid7管理维护。Metasploit的目标是，永远支持开源软件，促进社区参与，并提供最具创新性的渗透测试人员在世界各地的资源和工具。
+项目地址：https://www.metasploit.com/
+
+#3.无线安全
+#4.主机安全
+１）Security Onion(安全洋葱)
+项目简介：Security Onion基于Ubuntu，包含了入侵检测、网络安全监控、日志管理所需的Snort、Suricata、Bro、OSSEC、Sguil、Squert、ELSA、Xplico、NetworkMiner等众多工具。
+项目地址：https://securityonion.net/
+
+２）Suricata
+项目简介：Suricata是一款免费开源的网络威胁检测工具。主要用于实时入侵检测（IDS），嵌入式入侵防御（IPS）和网络安全监控（NSM）等。Suricata目前由OISF（开放信息安全基金会）维护和拥有。
+项目地址：https://suricata-ids.org/
+３）Bro
+项目简介：Bro是一个开源的，基于UNIX的监控框架，主要用于网络活动监控，包括软件，文件类型和联网设备。该工具为劳伦斯伯克利国家实验室研究项目的一部分，旨在超越传统的基于签名的检测。你可以使用它来监控所有流量，分析零日攻击后的历史数据，或构建黑洞路由器防止攻击等。
+项目地址：https://www.bro.org/index.html
+４）pfSense
+项目简介：pfsense是一个基于FreeBSD、带有防火墙和路由功能的开源软件，并可通过web页面对其进行配置。pfSense仅提供防火墙的软件组件，因此如果您选择使用防火墙，则必须根据需要定制硬件
+项目地址：https://www.pfsense.org/
+５）Moloch
+项目简介：Moloch是一款开源的，能够大规模的捕获IPv4数据包（PCAP）、索引和数据库系统。它是一个提供PCAP浏览的web界面，搜索和输出。它的API都是公开的并可以直接下载PCAP数据和JSON格式的会话数据。它简单的安全性是通过使用HTTPS和HTTP摘要密码支持或使用前端的apache提供的。
+项目地址：https://github.com/aol/moloch#building-and-installing
+#5.日志分析
+１）Elastic Stack
+它是一款开源的工具集合，除了搜索，还提供了监控、采集和强大的数据分析功能，尤其是日志方面。它是基于分布式，具有高性能和高可靠性特点。
+#6.IOS安全
+＃７．大数据与基于机器学习的安全
+１）Apache Spot
+项目简介：Apache Spot 是由英特尔启动、社区开发的开源项目，其目标是，通过大数据分析及机器学习提供先进的威胁检测，进而提高对安全威胁的可视性。利用Apache Hadoop实现规模无限大的日志管理和数据存储，以及用Apache Spark实现机器学习和接近实时的异常检测，各种机构及网络安全应用开发人员开启了前无所有的全新数据分析功能。通过Apache Spot，各种机构可以更有效地利用Apache大数据生态系统提供的技术和数据科学技能，检测未知网络威胁。
+项目地址：http://spot.apache.org/
+＃８.综合安全工具
+１）OSSIM（开源安全信息管理系统）
+项目简介：OSSIM即开源安全信息管理系统(OPEN SOURCE SECURITY INFORMATION MANAGEMENT)，是一个非常流行和完整的开源安全架构体系。OSSIM通过将开源产品进行集成，从而提供一种能够实现安全监控功能的基础平台。它的目的是提供一种集中式、有组织的、能够更好地进行监测和显示的框架式系统。OSSIM的捆绑功能包括资产发现，入侵检测，漏洞评估，SIEM和行为监控。AlienVault的“开放式威胁交换”可让用户发送和接收有关恶意主机的信息，正在进行的开发旨在提供更广泛的安全控制权限。
+项目地址：https://www.alienvault.com/products/ossim
+２）Cuckoo Sandbox（杜鹃沙盒）
+项目简介：Cuckoo(杜鹃)是一个开源的沙盒软件，用于自动化分析恶意软件，通过构造一个独立的环境来运行恶意软件，从而监控恶意软件的行为，你可以提供任何文件让其执行，他会在短时时间内给你生成一个软件的行为日志。Cuckoo能够分析Windows，OS X，Lunix和Android虚拟化环境中的不同类型的恶意文件和网站。
+项目地址：https://github.com/cuckoosandbox/cuckoo
